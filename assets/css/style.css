@@ -8,6 +8,17 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 17px;
+    letter-spacing: .5px;
+}
+
+/* page header */
 header {
     background-color: #2a607c;
 }
@@ -42,16 +53,7 @@ header li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 17px;
-    letter-spacing: .5px;
-}
-
+/* side bar */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -81,6 +83,7 @@ aside img {
     max-width: 150px;
 }
 
+/* background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -90,6 +93,7 @@ aside img {
     background-position: center;
 }
 
+/* main content */
 .content {
     width: 75%;
     display: inline-block;
@@ -100,7 +104,7 @@ aside img {
     max-height: 200px;
 }
 
-.card {
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -110,7 +114,7 @@ aside img {
     display: inline-block;
 }
 
-.card h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -125,15 +129,12 @@ aside img {
     margin-left: 25px;
 }
 
+/* footer */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-footer h4 {
-    font-size: 16px;
 }
 
 footer p {
