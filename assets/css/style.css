@@ -100,7 +100,7 @@ aside img {
     max-height: 200px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.card {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -110,7 +110,7 @@ aside img {
     display: inline-block;
 }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.card h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
